@@ -30,7 +30,7 @@
           "
         />
       </div>
-      <banner-app></banner-app>
+      <hero-app></hero-app>
       <div
         class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         aria-hidden="true"
@@ -59,11 +59,14 @@
           "
         />
       </div>
+
+      <product-collection></product-collection>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import HeaderApp from '@/components/header/HeaderApp.vue'
-import BannerApp from '@/components/content/BannerApp.vue'
+import HeroApp from '@/components/home/HeroApp.vue'
+import ProductCollection from '@/components/home/ProductCollection.vue'
 </script>
